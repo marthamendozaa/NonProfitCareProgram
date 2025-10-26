@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NonProfitCareProgram/static/css/main.0dff897b.css",
+    "main.js": "/NonProfitCareProgram/static/js/main.f505719b.js",
+    "static/js/453.5275135f.chunk.js": "/NonProfitCareProgram/static/js/453.5275135f.chunk.js",
+    "index.html": "/NonProfitCareProgram/index.html",
+    "main.0dff897b.css.map": "/NonProfitCareProgram/static/css/main.0dff897b.css.map",
+    "main.f505719b.js.map": "/NonProfitCareProgram/static/js/main.f505719b.js.map",
+    "453.5275135f.chunk.js.map": "/NonProfitCareProgram/static/js/453.5275135f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dff897b.css",
+    "static/js/main.f505719b.js"
+  ]
+}
