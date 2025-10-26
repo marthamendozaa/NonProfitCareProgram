@@ -1,0 +1,75 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.HomeSpacer {
+  height: 140px;
+} 
+
+.home-container {
+  text-align: center;
+}
+
+.home-text-content {
+  text-align: center;
+  margin: 20px auto; 
+  max-width: 950px;
+  margin-bottom: 6rem
+
+}
+
+.home-title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 6em;
+  margin-bottom: 0;
+}
+
+.home-paragraph {
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.home-image-content {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home-buttons {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1;
+}
+
+.home-buttons button {
+  padding: 1.3rem 2rem;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid black;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-buttons button:hover {
+  background-color: #e5e2e2;
+}
+

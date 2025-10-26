@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.nav-panel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;                        
+  justify-content: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0; 
+}
+
+/* push the standalone login container to the far right */
+.nav-panel .navbar-left {
+  margin-left: auto;
+}
+
+.nav-links a { 
+  text-decoration: none; 
+  color: #000; 
+  font-weight: 500;
+  padding: .5rem .9rem; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.125rem;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  transition: border-color .15s ease, background-color .15s ease, color .15s ease;
+}
+
+/* selected / active link shows a rounded rectangle */
+.nav-links a.active,
+.nav-links a[aria-current="page"] {
+  background: #004977;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  border-color: #004977;
+}
+
+/* hover shows just the stroke outline */
+.nav-links a:hover {
+  background: transparent;
+  border: 2px solid #004977;
+  border-radius: 25px;
+  color: #000;
+}
+
+.login-button {
+  background: #004977; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 25px; 
+  padding: .5rem .9rem; 
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.05rem;
+}
+
+.nav-toggle { 
+  display: none; 
+}
+
+.hamburger {
+  width: 30px;
+  height: 24px; 
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.hamburger span { 
+  height: 3px; 
+  width: 100%; 
+  background: #004977;
+}
+
+@media (max-width: 850px) {
+  .hamburger { 
+    display: flex; 
+  }
+
+  .nav-panel {
+    display: none;                
+  }
+}

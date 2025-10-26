@@ -1,0 +1,12 @@
+[
+  {
+    "email": "donor@example.com",
+    "password": "donor123",
+    "money": "1"
+  },
+  {
+    "email": "ngo@example.com",
+    "password": "ngo123",
+    "money": "0"
+  }
+]
